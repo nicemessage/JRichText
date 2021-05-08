@@ -9,7 +9,7 @@
 
 1. 安装
 ```
-npm install @wangxiaoxiao45/JRichText
+npm install @wangxiaoxiao45/j-rich-text
 ```
 
 2. 在项目中使用
@@ -18,7 +18,7 @@ npm install @wangxiaoxiao45/JRichText
 
 ```javascript
 
-import JRichText from 'JRichText'
+import JRichText from '@wangxiaoxiao45/j-rich-text'
 Vue.use(JRichText)
 
 ```
