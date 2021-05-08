@@ -10,6 +10,8 @@
 1. 安装
 ```
 npm install @wangxiaoxiao45/j-rich-text
+
+注意：将public目录下tinymce文件夹拷贝到项目public目录中
 ```
 
 2. 在项目中使用
