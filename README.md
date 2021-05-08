@@ -25,6 +25,7 @@ Vue.use(JRichText)
 
 ```
 ### 属性
-v-model  双向绑定
-width
-height
+- v-model  双向绑定
+- width
+- height
+

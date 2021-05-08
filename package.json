@@ -1,6 +1,6 @@
 {
   "name": "@wangxiaoxiao45/j-rich-text",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于tinyMce二次封装富文本编辑器",
   "main": "lib/JRichText.umd.min.js",
   "author": {
