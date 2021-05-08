@@ -1,0 +1,60 @@
+{
+  "name": "@wangxiaoxiao45/JRichText",
+  "version": "1.0.0",
+  "description": "基于tinyMce二次封装富文本编辑器",
+  "main": "lib/JRichText.umd.min.js",
+  "author": {
+    "name": "王肖肖",
+    "email": "wxx90n@gmail.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangxiaoxiao45/JRichText"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10.16"
+  },
+  "keywords": [
+    "Vue",
+    "element-ui",
+    "富文本",
+    "tinyMce"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib  --dest lib ./src/main.js"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^3.2.8",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "tinymce": "^5.6.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.10.1",
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "@vue/cli-plugin-babel": "^4.4.0",
+    "@vue/cli-plugin-router": "^4.4.0",
+    "@vue/cli-plugin-vuex": "^4.4.0",
+    "@vue/cli-service": "^4.4.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-jsx-v-model": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "compression-webpack-plugin": "^4.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-pxtorem": "^5.1.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "sass-resources-loader": "^2.0.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
