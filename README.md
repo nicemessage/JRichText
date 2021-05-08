@@ -24,7 +24,7 @@ import JRichText from '@wangxiaoxiao45/j-rich-text'
 Vue.use(JRichText)
 
 ```
-###属性
+### 属性
 v-model  双向绑定
 width
 height
